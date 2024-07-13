@@ -5,7 +5,7 @@ permalink: /projects/
 description: A selection of some of my presentable 😎 projects
 nav: true
 nav_order: 3
-display_categories: [Python]
+display_categories: [Python, FullStack, Mobile App, Data Science / Machine Learning]
 horizontal: false
 ---
 
