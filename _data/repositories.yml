@@ -3,15 +3,16 @@ github_users:
 repo_description_lines_max: 10
 
 github_repos:
+  - GeoffreyKarnbach/Laendr
   - GeoffreyKarnbach/RecipePlaner
   - GeoffreyKarnbach/CryptoPay
   - GeoffreyKarnbach/GymCompanionApp
   - GeoffreyKarnbach/SpotifyLanguageSorting
+  - GeoffreyKarnbach/Fake-News-Detector-AI
+  - GeoffreyKarnbach/Titanic-Survival-Analysis
   - GeoffreyKarnbach/TaskAutomation
   - GeoffreyKarnbach/JeffOS
   - GeoffreyKarnbach/Python-Datastructures
   - GeoffreyKarnbach/ViennaSubwaySimulation
-  - GeoffreyKarnbach/Fake-News-Detector-AI
-  - GeoffreyKarnbach/Titanic-Survival-Analysis
 
 

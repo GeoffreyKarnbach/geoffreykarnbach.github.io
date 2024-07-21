@@ -2,10 +2,10 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A selection of some of my presentable 😎 projects
+description: A selection of some of my projects
 nav: true
 nav_order: 3
-display_categories: [Python, FullStack, Mobile App, Data Science / Machine Learning]
+display_categories: [FullStack, Data Science / Machine Learning, Algorithms / Datastructures, Python, Mobile App]
 horizontal: false
 ---
 
