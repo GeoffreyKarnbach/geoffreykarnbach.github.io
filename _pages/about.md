@@ -30,7 +30,7 @@ social: true # includes social icons at the bottom of the page
 <ul>
   <li><strong>Fake News Detector</strong> - Identifies misinformation in articles.</li>
   <li><strong>Spotify Language Detection</strong> - Organizes playlists by song language using a custom model.</li>
-  <li><strong>Titanic Survival Analysis</strong> - Examines survival probabilities based on historical data.</li>
+  <li><strong>Titanic Survival Prediction</strong> - Predicts survival probabilities based on the Titanic Kaggle dataset using different machine learning models.</li>
 </ul>
 
 <p>I have a solid foundation in tools like <strong>PostgreSQL</strong>, <strong>Linux</strong>, <strong>Git</strong>, <strong>UML</strong>, and <strong>Ansible</strong>, and I am fluent in <strong>German</strong>, <strong>French</strong>, and <strong>English</strong>. My interests span <strong>full-stack development</strong>, <strong>machine learning</strong>, <strong>data science</strong>, and <strong>mobile app engineering</strong>. I am dedicated to continually learning and applying new technologies to solve real-world problems. Through my work, I aim to create innovative solutions that have a meaningful impact on everyday tasks and user experiences.</p>
