@@ -10,6 +10,15 @@
   "work": [
     {
       "name": "TU WIEN",
+      "position": "Software Engineer",
+      "url": "",
+      "startDate": "2024-08-01",
+      "endDate": "-",
+      "summary": "DAMAP: Full Stack Enginnering with Quarkus (Java) and Angular (Typescript)",
+      "highlights": ["Quarkus / Java", "Angular / Typescript", "FullStack Engineering"]
+    },
+    {
+      "name": "TU WIEN",
       "position": "Studentischer Mitarbeiter in der Forschung",
       "url": "",
       "startDate": "2022-12-01",
