@@ -5,7 +5,7 @@
     "image": "",
     "email": "geoffrey.karnbach@gmail.com",
     "url": "https://github.com/GeoffreyKarnbach",
-    "summary": "My name is Geoffrey, I am 20 years old and program since I am 11 years old. <br><br> I espeically enjoy working with Python (Flask, anything Data Science or ML related), Java (SpringBoot) and JavaScript (Angular)."
+    "summary": "My name is Geoffrey, I am 21 years old and program since I am 11 years old. <br><br> I espeically enjoy working with Python (Flask, anything Data Science or ML related), Java (SpringBoot) and JavaScript (Angular)."
   },
   "work": [
     {
@@ -68,8 +68,19 @@
       "studyType": "Bachelor Software and Information Engineering",
       "startDate": "2021-10-01",
       "endDate": "2025-01-31",
-      "score": "Average Grade: 1.45",
+      "score": "Passed with distinction (1.4 Austrian grading system)",
       "courses": ["Software Engineering PR", "Software Quality Assurance", "Introduction to Security", "Distributed Systems", "Operating Systems", "Algorithms and Data Structures", "Database Systems"]
+    },
+    {
+      "institution": "TU Wien ",
+      "location": "Vienna, Austria",
+      "url": "https://www.tuwien.at/",
+      "area": "",
+      "studyType": "Master Software Engineering & Internet Computing",
+      "startDate": "2025-03-01",
+      "endDate": "-",
+      "score": "",
+      "courses": ["Distributed System Technologies", "Knowledge Graphs"]
     }
   ],
   "skills": [
@@ -79,11 +90,10 @@
       "keywords": [
         "Python",
         "Java",
-        "C",
         "JavaScript - TS",
-        "Bash scripting",
         "SQL",
-        "Swift"
+        "C",
+        "Bash scripting"
       ]
     },
     {
@@ -93,7 +103,7 @@
         "Flask",
         "SpringBoot",
         "Angular",
-        "SwiftUI"
+        "Quarkus"
       ]
     },
     {
@@ -134,6 +144,12 @@
       "language": "English",
       "fluency": "Fluent",
       "icon": ""
+    },
+
+    {
+      "language": "Romanian",
+      "fluency": "Beginner",
+      "icon": ""
     }
   ],
   "interests": [
@@ -144,7 +160,6 @@
         "Full Stack",
         "Machine Learning / AI",
         "Data Science",
-        "Mobile App Engineering",
         "Cybersecurity",
         "System Architecture"
       ]
