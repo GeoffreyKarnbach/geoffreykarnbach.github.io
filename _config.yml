@@ -8,12 +8,12 @@ middle_name:
 last_name: Karnbach
 email: geoffrey.karnbach@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  My portfolio
+  Software engineer focused on distributed systems, backend engineering, graph technologies, observability, and research software.
 footer_text: >
   
-keywords: geoffrey karnbach, dergoyote, geoffrey karnbach portfolio, LÄNDR, Recipe Planer # add your own keywords or leave empty
+keywords: geoffrey karnbach, software engineer, distributed systems, backend engineering, TU Wien, graph neural networks, Neo4j, observability # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 😎 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: 💻 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://geoffreykarnbach.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -47,7 +47,7 @@ rss_icon: false
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
+search_enabled: false
 socials_in_search: true
 
 # Dimensions
@@ -60,7 +60,7 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: false # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
@@ -183,14 +183,14 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
+    output: false
     permalink: /news/:path/
   projects:
-    output: true
+    output: false
     permalink: /projects/:path/
 
 announcements:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -234,6 +234,15 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  - _pages/blog.md
+  - _pages/cv.md
+  - _pages/dropdown.md
+  - _pages/github.md
+  - _pages/news.md
+  - _pages/profiles.md
+  - _pages/projects.md
+  - _pages/publications.md
+  - _pages/teaching.md
   - purgecss.config.js
   - README.md
   - readme_preview/
@@ -416,14 +425,14 @@ enable_cronitor_analytics: false # enables cronitor RUM analytics
 enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
 enable_google_verification: false # enables google site verification
 enable_bing_verification: false # enables bing site verification
-enable_masonry: true # enables automatic project cards arrangement
+enable_masonry: false # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode: true # enables switching between light/dark modes
 enable_navbar_social: false # enables displaying social links in the navbar on the about page
 enable_project_categories: true # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
-enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
+enable_progressbar: false # enables a horizontal progress bar linked to the vertical scroll position
 enable_video_embedding: false # enables video embedding for bibtex entries. If false, the button opens the video link in a new window.
 
 # -----------------------------------------------------------------------------

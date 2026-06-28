@@ -1,36 +1,169 @@
 ---
-layout: about
-title: About
+layout: landing
+title: Geoffrey Karnbach
 permalink: /
-subtitle: Software Developer
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Vienna, Austria</p>
-
-
-news: true # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+description: Software engineer and TU Wien M.Sc. student focused on distributed systems, backend engineering, graph technologies, and research software.
+nav: false
 ---
 
-<p>I’m <strong>Geoffrey Karnbach</strong>, a <strong>20-year-old Software Engineer</strong>, half <strong>French</strong> and half <strong>Austrian</strong>, with a passion for programming that began when I was 11. My expertise lies in <strong>Python</strong>, <strong>Java</strong>, and <strong>JavaScript</strong>, and I am proficient in frameworks like <strong>Flask</strong>, <strong>SpringBoot</strong>, and <strong>Angular</strong>. At <strong>TU Wien</strong>, I contributed to research projects like <strong>OSSDIP</strong> and <strong>DBREPO</strong>, where I implemented Python microservices and developed frontend components with Vue.js.</p>
+<header class="landing-topbar" aria-label="Site header">
+  <a class="landing-brand" href="{{ '/' | relative_url }}" aria-label="Geoffrey Karnbach homepage">
+    <span class="landing-brand-mark">GK</span>
+    <span>Geoffrey Karnbach</span>
+  </a>
+  <div class="landing-actions">
+    <a class="landing-link-button" href="mailto:geoffrey.karnbach@gmail.com">Contact</a>
+    <button id="light-toggle" class="landing-theme-toggle" type="button" title="Change theme" aria-label="Change theme">
+      <i class="ti ti-sun-moon" id="light-toggle-system"></i>
+      <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
+      <i class="ti ti-sun-filled" id="light-toggle-light"></i>
+    </button>
+  </div>
+</header>
 
-<p>Among my Full Stack projects, I've worked on:</p>
-<ul>
-  <li><strong>CryptoPay</strong> - A simple solution for <strong>cryptocurrency payments</strong> in physical locations, designed to work as seamlessly as a credit card transaction.</li>
-  <li><strong>Ländr</strong> - A platform developed to help users <strong>find and book party locations</strong> easily.</li>
-  <li><strong>Recipe Planer</strong> - A practical tool that combines a <strong>digital cookbook</strong> with a <strong>smart grocery planner</strong> to streamline meal preparation.</li>
-</ul>
+<section class="landing-hero" aria-labelledby="hero-title">
+  <div>
+    <p class="landing-kicker">Software engineer - distributed systems - backend architecture</p>
+    <h1 id="hero-title" class="landing-title">
+      I build <span>reliable software systems</span> for graph-heavy, cloud-native problems.
+    </h1>
+    <p class="landing-lede">
+      I am a Software Engineering M.Sc. student at TU Wien with a current GPA of 1.0, focused on distributed systems, backend engineering, observability, graph databases, and machine learning for software systems.
+    </p>
+    <div class="landing-cta-row" aria-label="Primary links">
+      <a class="landing-button" href="https://github.com/GeoffreyKarnbach">View GitHub</a>
+      <a class="landing-link-button" href="https://linkedin.com/in/geoffrey-karnbach">LinkedIn</a>
+      <a class="landing-link-button" href="{{ '/assets/pdf/Geoffrey_Karnbach_Resume_2026_public.pdf' | relative_url }}">Download CV</a>
+    </div>
+    <div class="landing-chip-row" aria-label="Highlights">
+      <span class="landing-chip">TU Wien Software Engineer</span>
+      <span class="landing-chip">B.Sc. with distinction</span>
+      <span class="landing-chip">Open-source research software</span>
+      <span class="landing-chip">Vienna, Austria</span>
+    </div>
+  </div>
 
-<p>In the realm of <strong>data science and machine learning</strong>, I’ve worked on several projects including:</p>
-<ul>
-  <li><strong>Fake News Detector</strong> - Identifies misinformation in articles.</li>
-  <li><strong>Spotify Language Detection</strong> - Organizes playlists by song language using a custom model.</li>
-  <li><strong>Titanic Survival Prediction</strong> - Predicts survival probabilities based on the Titanic Kaggle dataset using different machine learning models.</li>
-</ul>
+  <aside class="landing-profile" aria-label="Profile summary">
+    <img src="{{ '/assets/img/ProfilePicture.jpeg' | relative_url }}" alt="Portrait of Geoffrey Karnbach">
+  </aside>
+</section>
 
-<p>I have a solid foundation in tools like <strong>PostgreSQL</strong>, <strong>Linux</strong>, <strong>Git</strong>, <strong>UML</strong>, and <strong>Ansible</strong>, and I am fluent in <strong>German</strong>, <strong>French</strong>, and <strong>English</strong>. My interests span <strong>full-stack development</strong>, <strong>machine learning</strong>, <strong>data science</strong>, and <strong>mobile app engineering</strong>. I am dedicated to continually learning and applying new technologies to solve real-world problems. Through my work, I aim to create innovative solutions that have a meaningful impact on everyday tasks and user experiences.</p>
+<section class="landing-section" aria-labelledby="focus-title">
+  <div class="landing-section-header">
+    <h2 id="focus-title">Current Focus</h2>
+  </div>
+
+  <div class="landing-focus-grid">
+    <article class="landing-panel">
+      <h3>Master's thesis: graph-based root cause analysis</h3>
+      <p>
+        I am working on automated Root Cause Analysis for microservice architectures using OpenTelemetry data, service dependency graphs, and Graph Neural Networks.
+      </p>
+      <ul class="landing-list">
+        <li>Containerized microservice testbed with controlled fault injection and synthetic traffic generation.</li>
+        <li>Telemetry pipelines with OpenTelemetry, Prometheus, and Jaeger.</li>
+        <li>Graph snapshot construction, labeled dataset generation, and PyTorch Geometric experiments.</li>
+        <li>Evaluation with Top-1, Top-3, and ranking-based RCA metrics.</li>
+      </ul>
+    </article>
+
+    <div class="landing-timeline" aria-label="Experience and education">
+      <article class="landing-timeline-item">
+        <span class="landing-timeline-date">Aug 2024 - Jun 2026</span>
+        <h3>Software Engineer, TU Wien - DAMAP</h3>
+        <p>Software engineering with Quarkus, Angular, backend services, architecture work, and open-source tooling for machine-actionable data management plans.</p>
+      </article>
+      <article class="landing-timeline-item">
+        <span class="landing-timeline-date">Dec 2022 - Sept 2023</span>
+        <h3>Student Research Assistant, TU Wien - OSSDIP</h3>
+        <p>Contributed to research projects around secure open-source data infrastructure and processes.</p>
+      </article>
+      <article class="landing-timeline-item">
+        <span class="landing-timeline-date">TU Wien</span>
+        <h3>Software Engineering education</h3>
+        <p>M.Sc. Software Engineering in progress. B.Sc. Software and Information Engineering completed with distinction and a 1.4 average.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="landing-section" aria-labelledby="work-title">
+  <div class="landing-section-header">
+    <h2 id="work-title">Selected Work</h2>
+  </div>
+
+  <div class="landing-project-grid">
+    <article class="landing-card">
+      <div class="landing-card-topline">
+        <h3>CineVerse</h3>
+        <span class="landing-card-label">Knowledge graph</span>
+      </div>
+      <p>Graph-native cinema analytics platform with a Neo4j knowledge graph containing more than 47,000 movies, 286,000 people, and 800,000 relationships from IMDb, TMDB, and Wikidata.</p>
+      <a class="landing-card-link" href="https://github.com/GeoffreyKarnbach/CineVerse">Open on GitHub</a>
+    </article>
+
+    <article class="landing-card">
+      <div class="landing-card-topline">
+        <h3>TaskInn</h3>
+        <span class="landing-card-label">Architecture</span>
+      </div>
+      <p>Production-scale hotel management platform built by a six-person team. I worked as Technical Architect across system design, CI/CD, backend components, WebSockets, Stripe, and Kubernetes deployment.</p>
+      <a class="landing-card-link" href="https://github.com/GeoffreyKarnbach/TaskInn">Open on GitHub</a>
+    </article>
+
+    <article class="landing-card">
+      <div class="landing-card-topline">
+        <h3>HALT</h3>
+        <span class="landing-card-label">Distributed systems</span>
+      </div>
+      <p>Vehicle-to-Infrastructure simulation using an event-driven microservice architecture with more than 20 containerized services, RabbitMQ, REST APIs, NGINX, Kubernetes, and Skaffold.</p>
+    </article>
+
+    <article class="landing-card">
+      <div class="landing-card-topline">
+        <h3>DataVision</h3>
+        <span class="landing-card-label">Digital twin</span>
+      </div>
+      <p>Digital Twin platform that transforms heterogeneous IoT sensor streams into a semantic knowledge graph using MQTT, Neo4j, Prometheus, Node-RED, and Angular dashboards.</p>
+      <a class="landing-card-link" href="https://datavision-ai.github.io/Documentation/#/">Read documentation</a>
+    </article>
+  </div>
+</section>
+
+<section class="landing-section" aria-labelledby="stack-title">
+  <div class="landing-section-header">
+    <h2 id="stack-title">Tech Stack</h2>
+  </div>
+
+  <div class="landing-stack-grid">
+    <article class="landing-stack-card">
+      <h3>Languages</h3>
+      <p>Java, Python, TypeScript, SQL, Cypher</p>
+    </article>
+    <article class="landing-stack-card">
+      <h3>Backend</h3>
+      <p>Quarkus, Spring Boot, Flask, REST APIs, WebSockets</p>
+    </article>
+    <article class="landing-stack-card">
+      <h3>Frontend</h3>
+      <p>Angular, D3.js, Bootstrap, interactive dashboards</p>
+    </article>
+    <article class="landing-stack-card">
+      <h3>Data and Graphs</h3>
+      <p>Neo4j, Graph Data Science, PyTorch Geometric, PostgreSQL</p>
+    </article>
+    <article class="landing-stack-card">
+      <h3>Infrastructure</h3>
+      <p>Docker, Kubernetes, GitLab CI/CD, Prometheus, Jaeger, RabbitMQ, AWS</p>
+    </article>
+  </div>
+</section>
+
+<footer class="landing-footer">
+  <nav class="landing-footer-links" aria-label="Footer links">
+    <a href="mailto:geoffrey.karnbach@gmail.com">Email</a>
+    <a href="https://github.com/GeoffreyKarnbach">GitHub</a>
+    <a href="https://linkedin.com/in/geoffrey-karnbach">LinkedIn</a>
+    <a href="{{ '/assets/pdf/Geoffrey_Karnbach_Resume_2026_public.pdf' | relative_url }}">CV</a>
+  </nav>
+</footer>
